@@ -18,7 +18,7 @@ This project only support tensors with spatial volume less than ```std::numeric_
 
 1. Install boost headers to your system include path, you can use either ```sudo apt-get install libboostall-dev``` or download compressed files from boost official website and copy headers to include path.
 
-2. Download cmake >= 3.13.2, then add cmake executables to PATH.
+2. Download gcc >= 5.5 , boost >= 1.7 ,cmake >= 3.13.2, then add cmake executables to PATH.
 
 3. Ensure you have installed pytorch 1.0+ in your environment, run ```python setup.py bdist_wheel``` (don't use ```python setup.py install```).
 
